@@ -3,12 +3,16 @@
   font-weight: 300;
   text-align: center;
 
-  @mixi atSamall {
+  @mixi atSmall {
     font-size: 3.75rem;
   }
 
   strong {
     font-weight: 500;
+  }
+
+  &--blue{
+    color: #2F5572;
   }
 
   &__icon {
@@ -17,16 +21,14 @@
     margin-right: auto;
     margin-bottom: .6rem;
 
-    @mixin atSmall{
-        margin-right: .5rem;
+    @mixin atSmall {
+        position: relative;
+        top: 8px;
+        margin-right: 0.5rem;
         margin-left: 0;
         margin-bottom: 0;
         display: inline-block;
-
     }
 
   }
-
-
-
 }
